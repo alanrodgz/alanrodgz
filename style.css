@@ -156,3 +156,62 @@ ul li{
     padding: 15px;
     display: inline-block;
 }
+
+/*
+.image-resize{
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    transform: rotate(90deg);
+    border-radius: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-pic{
+    margin-top: 25px;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    filter: grayscale(1);
+    text-align: center;
+}
+.profile-pic h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff: !important;
+}
+.profile-pic h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff: !important;
+}
+#team .fab{
+    font-size: 32px;
+    height: 25px;
+    width: 10px;
+    color: grey;
+    background: #fff;
+    padding: 4px;
+}
+.img-box ul{
+    margin-top: 2px;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 10;
+    left: 50%;
+    transform: translate(-50%);
+}
+.img-box ul li{
+    padding: 10px;
+    display: inline-block;
+}
+*/
