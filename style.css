@@ -53,8 +53,11 @@
     color: white;
     font-size: 100px;
 }
-/*-----------ABout------------*/
+/*-----------About------------*/
 #about{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url(free2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
@@ -67,7 +70,25 @@
     padding-bottom: 20px;
 }
 
-/*---------Services--------------*/
+#about .center-block{
+    margin-top: 5px;
+    margin-left: 90px;
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#about h2{
+    color: white
+}
+
+#about .about-contenet{
+    color: white
+}
+
+
+
+/*---------Technical Sills--------------*/
 #services{
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url(free3.jpg);
     background-size: cover;
@@ -111,6 +132,40 @@
     margin-top: 10px;
     color: #ccc;
 }
+
+/*----YouTube----*/
+#youtube{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    text-align: center;
+    display: block;
+    color: #efefef !important;
+}
+
+#youtube h1{
+    color: white !important;
+}
+
+
+
+#youtube h1::after{
+    background: #efefef;
+}
+
+/*----YouTube Content----*/
+#youtube_content{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)),url(free1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
 /*----Contact Memeber----*/
 #contact{
     padding-top: 50px;
@@ -133,15 +188,16 @@ h1::after{
     margin: 20px auto 5px;
     
 }
-.center-block{
+#contact .center-block{
     margin-top: 50px;
     filter: grayscale(1);
     height: 200px;
     width: 200px;
     object-fit: cover;
-    //transform: rotate(90deg);
     border-radius: 200px;
 }
+
+
 #contact .fab{
     font-size: 32px;
     height: 25px;
@@ -157,61 +213,3 @@ ul li{
     display: inline-block;
 }
 
-/*
-.image-resize{
-    margin-top: 100px;
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    transform: rotate(90deg);
-    border-radius: 200px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.profile-pic{
-    margin-top: 25px;
-}
-.profile-pic .img-box{
-    opacity: 1;
-    display: block;
-    position: relative;
-}
-.profile-pic .img-box img{
-    filter: grayscale(1);
-    text-align: center;
-}
-.profile-pic h2{
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 15px;
-    color: #007bff: !important;
-}
-.profile-pic h3{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 15px;
-    color: #007bff: !important;
-}
-#team .fab{
-    font-size: 32px;
-    height: 25px;
-    width: 10px;
-    color: grey;
-    background: #fff;
-    padding: 4px;
-}
-.img-box ul{
-    margin-top: 2px;
-    padding: 20px 0;
-    position: absolute;
-    z-index: 2;
-    bottom: 10;
-    left: 50%;
-    transform: translate(-50%);
-}
-.img-box ul li{
-    padding: 10px;
-    display: inline-block;
-}
-*/
